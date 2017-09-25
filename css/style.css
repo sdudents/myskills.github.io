@@ -62,20 +62,20 @@ table {
 	justify-content: space-between;
 	align-items: center;
 }
-.header_navigate {
+.header_top_navigate {
 	margin: 0 auto;
 }
-.header_navigate ul{
+.header_top_navigate ul{
 	display: flex;
 }
-.header_navigate li {
+.header_top_navigate li {
 	color: #343e5c;
 	float: left;
 	margin-right: 40px;
 	font-size: 14pt;
 
 }
-.header_navigate li:last-child{
+.header_top_navigate li:last-child{
 	margin: 0;
 }
 .header_cart {
@@ -102,34 +102,34 @@ table {
 	text-decoration: none;
 }
 /*навигация поддержка поиск*/
-.navigate {
+.navigate_bottom {
 	display: flex;
 	width: 1170px;
 	margin: 0 auto;
 	align-items: center;
 
 }
-.navigate ul {
+.navigate_bottom ul {
 	display: flex;
 }
 
-.navigate ul li{
+.navigate_bottom ul li{
 	text-decoration: none;
 	margin-right: 50px;
 }
-.navigate li:last-child{
+.navigate_bottom li:last-child{
 	margin: 0;
 }
-.navigate ul li a{
+.navigate_bottom ul li a{
 	color: #b9bed1;
 	text-decoration: none;
 	font-size: 14pt;
 }
-.navigate a:hover {
+.navigate_bottom a:hover {
 	color: #343e5c;
 }
 /*support_search*/
-.support_search {
+.support, .search {
 	margin-left: auto;
     width: 100%;
     max-width: 300px;
@@ -178,7 +178,7 @@ input {
 	display: block;
 	
 }
-.main_description{
+.main_block{
 	width: 400px;
 	color: white;
 	float: left;
@@ -186,21 +186,21 @@ input {
 	margin-left:  340px;
 	
 }
-.main_description h1 {
+.main_block h1 {
 	font-size: 42px;
 	font-weight: bold;
-}
+}-
 
-.txt {
+.main_desription {
 	margin-top: 30px;
 	line-height: 20px;
 	text-align: justify;
 }
-.main_shop  {
+.main_shop_phone  {
 	margin-top: 60px;
 
 }
-.main_shop a {
+.main_shop_phone a {
  	background-color: #2754eb;
     padding: 10px 35px;
     border-radius: 30px;
@@ -208,6 +208,6 @@ input {
     color: white;
     font-size: 20px;
 }
-.main_shop a:hover {
+.main_shop_phone a:hover {
 	background-color: #6ac762;
 }
