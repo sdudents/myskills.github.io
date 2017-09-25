@@ -69,6 +69,7 @@ table {
 	display: flex;
 }
 .header_navigate li {
+	color: #343e5c;
 	float: left;
 	margin-right: 40px;
 	font-size: 14pt;
@@ -94,9 +95,10 @@ table {
 }
 .header_cart a {
 	align-items: center;
-	border:solid 2px;
+	border:solid 2px #e3e8f0;
+	color: #343e5c;
 	border-radius: 15px;
-	padding: 5px 10px;
+	padding: 6px 15px;
 	text-decoration: none;
 }
 /*навигация поддержка поиск*/
@@ -104,7 +106,6 @@ table {
 	display: flex;
 	width: 1170px;
 	margin: 0 auto;
-	
 	align-items: center;
 
 }
@@ -120,8 +121,12 @@ table {
 	margin: 0;
 }
 .navigate ul li a{
+	color: #b9bed1;
 	text-decoration: none;
 	font-size: 14pt;
+}
+.navigate a:hover {
+	color: #343e5c;
 }
 /*support_search*/
 .support_search {
@@ -139,6 +144,10 @@ table {
 .navigate_support a{
 	text-decoration: none;
 	font-size: 14pt;
+	color: #b9bed1;
+}
+.navigate_support a:hover {
+	color: #343e5c;
 }
 .form {
 	height: 70px;
@@ -156,7 +165,6 @@ input {
 /*main*/
 .main {
 	background-color: #1c1e23;
-	margin-bottom:  30px;
 	height: 500px;
 }
 .main_phone {
@@ -171,7 +179,7 @@ input {
 	
 }
 .main_description{
-	width: 500px;
+	width: 400px;
 	color: white;
 	float: left;
 	margin-top: 106px;
@@ -179,12 +187,14 @@ input {
 	
 }
 .main_description h1 {
-	
 	font-size: 42px;
 	font-weight: bold;
 }-
 .main_description p {
-	letter-spacing: 20px;
+}
+.txt {
+	margin-top: 30px;
+	line-height: 20px;
 }
 .main_shop  {
 	margin-top: 60px;
@@ -197,4 +207,7 @@ input {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+.main_shop a:hover {
+	background-color: #6ac762;
 }
