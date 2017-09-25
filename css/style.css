@@ -189,12 +189,12 @@ input {
 .main_description h1 {
 	font-size: 42px;
 	font-weight: bold;
-}-
-.main_description p {
 }
+
 .txt {
 	margin-top: 30px;
 	line-height: 20px;
+	text-align: justify;
 }
 .main_shop  {
 	margin-top: 60px;
